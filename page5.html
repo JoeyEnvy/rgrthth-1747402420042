@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errgrgh - FAQ Page 5</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #444;
+        }
+        header {
+            background: #e74c3c;
+            color: #fff;
+            padding: 35px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 30px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        .hero {
+            background: url('https://images.pexels.com/photos/3184463/pexels-photo-3184463.jpeg') no-repeat center center/cover;
+            height: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 3px 3px 6px #000;
+        }
+        .about, .services, .testimonials, .contact {
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            background: #f9f9f9;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 15px;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                height: 180px;
+            }
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Errgrgh</h1>
+    <p>Unleashing Potential Through Creativity</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <section class="hero">
+        <h2>Explore Errgrgh</h2>
+    </section>
+
+    <section class="about">
+        <h2>About Errgrgh</h2>
+        <p>Errgrgh is at the forefront of providing creative solutions that help businesses unlock their full potential. We are committed to delivering innovative services that are tailored to meet the specific needs of our clients. Our team of experts combines creativity with technology to deliver exceptional results that drive business success.</p>
+        <p>Our vision is to be the leading provider of creative solutions, empowering businesses to thrive in a fast-paced and ever-evolving market. We prioritize client satisfaction and work tirelessly to ensure that every project we undertake is a success.</p>
+        <ul>
+            <li>Customized Solutions</li>
+            <li>Expert Guidance</li>
+            <li>Client Satisfaction</li>
+            <li>Creative Excellence</li>
+        </ul>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div>
+            <i class="fas fa-brain fa-3x"></i>
+            <h3>Innovation</h3>
+            <p>We drive innovation by integrating the latest technologies into your business.</p>
+        </div>
+        <div>
+            <i class="fas fa-chart-pie fa-3x"></i>
+            <h3>Analytics</h3>
+            <p>Our analytics services provide you with valuable insights to optimize operations.</p>
+        </div>
+        <div>
+            <i class="fas fa-rocket fa-3x"></i>
+            <h3>Growth Strategies</h3>
+            <p>We develop growth strategies that propel your business towards success.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <p>"Errgrgh has been instrumental in our growth, providing unparalleled support and guidance." - Client I</p>
+        <p>"Their innovative approach and dedication have set a new standard in the industry." - Client J</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Errgrgh © 2023. All rights reserved.</p>
+    <p>Follow us:
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </p>
+</footer>
+
+</body>
+</html>
