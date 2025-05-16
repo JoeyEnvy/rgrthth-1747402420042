@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errgrgh - FAQ Page 4</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            margin: 0;
+            padding: 0;
+
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #ffcc00;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background: #444;
+            padding: 10px 20px;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 30px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .hero {
+            background: url('https://images.pexels.com/photos/3184461/pexels-photo-3184461.jpeg') no-repeat center center/cover;
+            height: 260px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 1px 1px 5px #000;
+        }
+        .about, .services, .testimonials, .contact {
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .services div {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+            padding: 15px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact form {
+            display: grid;
+            gap: 15px;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        footer {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Errgrgh</h1>
+    <p>Crafting Clever Solutions</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <section class="hero">
+        <h2>Join the Errgrgh Journey</h2>
+    </section>
+
+    <section class="about">
+        <h2>About Errgrgh</h2>
+        <p>Errgrgh is a forward-thinking company dedicated to crafting clever solutions that empower businesses to thrive. Our mission is to revolutionize industry standards through innovative approaches and cutting-edge technology. We pride ourselves on our ability to adapt to the ever-changing market landscape, providing services that are as dynamic as they are effective.</p>
+        <p>Our team consists of passionate professionals who are committed to delivering exceptional results. We believe in the power of collaboration and work closely with our clients to ensure their vision is realized in the most impactful way.</p>
+        <ul>
+            <li>Adaptive Strategies</li>
+            <li>Cutting-Edge Technology</li>
+            <li>Client-First Approach</li>
+            <li>Innovative Mindset</li>
+        </ul>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div>
+            <i class="fas fa-drafting-compass fa-3x"></i>
+            <h3>Design & Drafting</h3>
+            <p>We offer comprehensive design and drafting services to bring your ideas to life.</p>
+        </div>
+        <div>
+            <i class="fas fa-analytics fa-3x"></i>
+            <h3>Analytics</h3>
+            <p>Our analytics solutions provide key insights to drive your business forward.</p>
+        </div>
+        <div>
+            <i class="fas fa-network-wired fa-3x"></i>
+            <h3>Networking</h3>
+            <p>Enhance your business connectivity with our robust networking services.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <p>"Errgrgh's innovative solutions have propelled our business to new heights." - Client G</p>
+        <p>"Their expertise and dedication are truly unparalleled." - Client H</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Errgrgh © 2023. All rights reserved.</p>
+    <p>Follow us:
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </p>
+</footer>
+
+</body>
+</html>
